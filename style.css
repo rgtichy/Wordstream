@@ -70,7 +70,6 @@
 #sidebar {display: inline-block;
           width: 200px;
           background-color: white;
-          text-align:center;
           margin-left: 10px;
           margin-right: 10px;
          }
@@ -84,10 +83,12 @@
 #sidebar h3 {color: darkblue;
             font-weight: normal;
             text-align: left;
+            padding-bottom: 12px;
           }
 #sidebar h5 {color: darkorange;
             text-align: left;
-            font-weight: lighter;}
+            font-weight: normal;
+            }
 #sidebar h6 {color:white;
             text-align: center;
             text-transform: uppercase;
@@ -103,20 +104,20 @@
      border-style:solid;
      border-width: 1px;
      border-radius: 5px;
-     background: linear-gradient(#21a1df, #277bad);
+     background: linear-gradient(#21A1DF, #277BAD);
      color: white;
      padding: 5px 0px 5px 0px;
-     margin: 1px 0px 1px 0px;
+     margin: 1px 0px 3px 0px;
      width: auto;
      }
 .ob {border-color: #0075b3;
      border-style:solid;
      border-width:0.5px;
      border-radius: 5px;
-     background: linear-gradient(orange, darkorange);
+     background: linear-gradient(orange, #C84C16);
      color: white;
      padding: 5px 0px 5px 0px;
-     margin: 1px 0px 1px 0px;
+     margin: 1px 0px 3px 0px;
      width: auto;
      }
 #main {display: inline-block;
