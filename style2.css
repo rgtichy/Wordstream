@@ -53,9 +53,10 @@
 .logo {padding: 20px;
       display: block;
       }
-#bluebanner {background-image: url("bluebannergradient.png");
-             background-repeat: repeat-x;
-             height: 165px;
+#bluebanner {background: linear-gradient(#0777ae, #007dbd, #0075c3);
+             /*background-image: url("bluebannergradient.png");*/
+             /*background-repeat: repeat-x;*/
+             height: 50px;
              display: inline-block;
             }
 #bluebanner p {color: white;
@@ -68,62 +69,14 @@
               vertical-align: top;
               }
 #sidebar {display: inline-block;
-          width: 200px;
-          background-color: white;
-          text-align:center;
-          margin-left: 10px;
-          margin-right: 10px;
+          width: 250px;
+          height:500px;
+          background-color: blue;
          }
-.ad      {display: block;
-          text-align:center;
-          width: 200px;
-          border-bottom-width: thin;
-          border-bottom-style: solid;
-          border-bottom-color: gray;
-          }
-#sidebar h3 {color: darkblue;
-            font-weight: normal;
-            text-align: left;
-          }
-#sidebar h5 {color: darkorange;
-            text-align: left;
-            font-weight: lighter;}
-#sidebar h6 {color:white;
-            text-align: center;
-            text-transform: uppercase;
-            font-weight: bold;
-}
-#sidebar p {color: black;
-            font-size: 70%;
-            text-align: left;
-            }
-#sidebar p:not(.lj) {text-align: center;
-                    }
-.bb {border-color: #0075b3;
-     border-style:solid;
-     border-width: 1px;
-     border-radius: 5px;
-     background: linear-gradient(#21a1df, #277bad);
-     color: white;
-     padding: 5px 0px 5px 0px;
-     margin: 1px 0px 1px 0px;
-     width: auto;
-     }
-.ob {border-color: #0075b3;
-     border-style:solid;
-     border-width:0.5px;
-     border-radius: 5px;
-     background: linear-gradient(orange, darkorange);
-     color: white;
-     padding: 5px 0px 5px 0px;
-     margin: 1px 0px 1px 0px;
-     width: auto;
-     }
 #main {display: inline-block;
-       width: 720px;
+       width: 730px;
        background-color: red;
        border-top-style: solid;
        border-top-width: medium;
        border-top-color: gray;
-       vertical-align: top;
        }
